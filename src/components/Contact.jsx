@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Send, Github, Linkedin, CheckCircle2 } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Github, Linkedin, MessageCircle, CheckCircle2, Download } from "lucide-react";
 import Footer from "./Footer";
 
 const contactCards = [
@@ -20,6 +20,13 @@ const contactCards = [
     title: "Location",
     value: "Chennai, Tamil Nadu, India",
     href: "#"
+  },
+  {
+    icon: Download,
+    title: "Resume",
+    value: "Download my resume (PDF)",
+    href: `${import.meta.env.BASE_URL}Girinadhan_Resume.pdf`,
+    download: "Girinadhan_Resume.pdf"
   }
 ];
 
@@ -81,6 +88,7 @@ function Contact() {
                   <a
                     key={idx}
                     href={card.href}
+                    download={card.download}
                     className="glass-card p-4 text-decoration-none text-white d-flex align-items-center gap-3"
                   >
                     <div 
@@ -123,6 +131,17 @@ function Contact() {
                     aria-label="GitHub Profile"
                   >
                     <Github size={20} />
+                  </a>
+                  <a
+                    href="https://wa.me/918148852953"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline-secondary rounded-circle p-3 text-white border-opacity-25 d-flex align-items-center justify-content-center"
+                    style={{ width: "48px", height: "48px" }}
+                    aria-label="WhatsApp"
+                    title="WhatsApp"
+                  >
+                    <MessageCircle size={20} />
                   </a>
                 </div>
               </div>

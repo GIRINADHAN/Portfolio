@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, Menu, X, Briefcase } from "lucide-react";
+import { Github, Linkedin, Mail, Menu, X, Briefcase, Download } from "lucide-react";
 
 const navLinks = [
   { id: "home", label: "Home" },
@@ -173,6 +173,15 @@ function Navbar() {
                   {link.label}
                 </button>
               ))}
+              <a
+                href={`${import.meta.env.BASE_URL}Girinadhan_Resume.pdf`}
+                download="Girinadhan_Resume.pdf"
+                onClick={() => setMenuOpen(false)}
+                className="btn text-start text-white p-2 border-0 rounded-3 bg-transparent d-flex align-items-center gap-2"
+              >
+                <Download size={16} />
+                Download Resume
+              </a>
             </div>
 
             <div className="d-flex align-items-center justify-content-between mt-3 pt-3 border-top border-secondary border-opacity-25">

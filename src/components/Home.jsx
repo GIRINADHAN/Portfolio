@@ -10,7 +10,7 @@ const typewriterPhrases = [
 
 const techPills = [
   "Java", "Spring Boot", "React.js", "SQL", "JavaScript", 
-  "HTML5 & CSS3", "Bootstrap", "REST APIs", "Git", "Jenkins"
+  "HTML5 & CSS3", "Bootstrap", "REST APIs", "Git", "Jenkins", "n8n", "AWS (ecr, ec2)"
 ];
 
 function useTypewriter(phrases, speed = 80, delay = 1800) {

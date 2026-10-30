@@ -33,6 +33,50 @@ const allProjects = [
     demo: "#"
   },
   {
+    id: "email-automation",
+    category: "internship",
+    type: "AI-Powered Internship Project",
+    title: "Email Automation Platform",
+    description: "Built a full-stack email automation platform that connects to Microsoft Outlook through the Graph API and uses LLM-powered triage to automatically classify emails.",
+    points: [
+      "Integrated Outlook mailboxes using the Microsoft Graph API",
+      "Applied LLM-driven triage to automatically classify incoming emails",
+      "Developed a full-stack workflow to streamline email management"
+    ],
+    tech: ["Flsk", "React.js", "Microsoft Graph API", "LLM", "AI Email Triage", "Full-Stack"],
+    github: "https://github.com/GIRINADHAN",
+    demo: "#"
+  },
+  {
+    id: "news-categorization",
+    category: "internship",
+    type: "Internship Project",
+    title: "News Categorization",
+    description: "An automated Python application that fetches the latest news from the Threadline API every five hours, uses OpenAI GPT-5 via a Django LLM Gateway to refine headlines and content and generate hierarchical categories, news types, and tags, and conditionally creates images with Mistral Pixtral. News is stored in MySQL with duplicate detection and record updates.",
+    points: [
+      "Automates news fetching and processing on a five-hour schedule",
+      "Uses GPT-5 to refine news content and generate primary, secondary, and tertiary categories, news types, and relevant tags"
+    ],
+    tech: ["Python", "MySQL", "GPT-5", "Threadline API", "Django LLM Gateway", "Mistral Pixtral"],
+    github: "https://github.com/GIRINADHAN",
+    demo: "#"
+  },
+  {
+    id: "audio-transcription",
+    category: "internship",
+    type: "Internship Project",
+    title: "Audio Transcription",
+    description: "A Microsoft Word-inspired editor for creating professional documents with multilingual speech dictation, reusable templates, autosave, and PDF/DOCX export.",
+    points: [
+      "Built with React, TypeScript, and the Web Speech API for rich-text editing and multilingual voice input",
+      "Created a Flask and SQLite backend for persistent documents and secure API-driven operations",
+      "Uses LLM-assisted template heading extraction, autosave, and PDF/DOCX export to streamline document creation"
+    ],
+    tech: ["React", "TypeScript", "Flask", "SQLite", "Web Speech API", "LLM", "PDF/DOCX"],
+    github: "https://github.com/GIRINADHAN",
+    demo: "#"
+  },
+  {
     id: "food-ordering-backend",
     category: "personal",
     type: "Full-Stack Web Application",
@@ -81,7 +125,7 @@ const allProjects = [
     id: "food-ordering-frontend",
     category: "personal",
     type: "Frontend Web Application",
-    title: "Food Ordering Website",
+    title: "Food Ordering Website (frontend)",
     description: "Dynamic front-end web application with rich menu interactions, form validations, and user-friendly order flow.",
     points: [
       "Developed using pure HTML, CSS, and vanilla JavaScript",
@@ -96,7 +140,7 @@ const allProjects = [
     id: "blinkit-clone",
     category: "personal",
     type: "Frontend UI Clone",
-    title: "Blinkit Grocery Store Clone",
+    title: "Blinkit Grocery Store Clone (frontend)",
     description: "Front-end replica of the Blinkit quick-commerce grocery website featuring product category grids and search UI.",
     points: [
       "Pixel-inspired responsive design built using HTML and CSS",

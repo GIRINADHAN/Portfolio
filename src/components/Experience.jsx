@@ -3,17 +3,17 @@ import { Briefcase, Calendar, MapPin, CheckCircle } from "lucide-react";
 
 const experiences = [
   {
-    role: "Full Stack Java Developer Intern (Remote)",
+    role: "Full Stack Java Developer Intern (Remote - 8 months)",
     company: "Felamity Technologies LLP",
-    period: "Jan 2026 – June 2026",
+    period: "Feb 2026 – Oct 2026",
     location: "Remote",
     highlights: [
       "Developed full stack web applications using Java, Spring Boot, React.js, Python, Flask, and SQL.",
       "Built robust REST APIs and implemented secure database operations with MySQL & PostgreSQL.",
       "Fixed critical bugs and improved application performance, security, and UI responsiveness.",
-      "Architected backend modules for key projects including Invoice Automation, Business Analytics Dashboard, and Task Planner."
+      "Architected backend modules for key projects including Invoice Automation, Email Automation, News Categorization, Audio Transcription, Business Analytics Dashboard, and Task Planner."
     ],
-    tags: ["Java", "Spring Boot", "React.js", "Python", "Flask", "SQL", "REST APIs", "JWT", "OAuth"]
+    tags: ["Java", "Spring Boot", "React.js", "Python", "Flask", "SQL", "REST APIs", "JWT", "OAuth", "AWS"]
   }
 ];
 
